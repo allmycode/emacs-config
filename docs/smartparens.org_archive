@@ -1,0 +1,16 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/cloud/.emacs.d/docs/smartparens.org
+
+
+* Включение в требуемых режимах
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-01-19 Thu 13:59
+  :ARCHIVE_FILE: ~/.emacs.d/docs/smartparens.org
+  :ARCHIVE_OLPATH: Настройка
+  :ARCHIVE_CATEGORY: smartparens
+  :END:
+  (add-hook 'lisp-mode-hook #'smartparens-mode)
+  (add-hook 'emacs-lisp-mode-hook #'smartparens-mode)
+

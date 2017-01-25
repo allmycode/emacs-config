@@ -1,0 +1,12 @@
+* Установка smartparens
+
+# package-install smartparens-mode
+
+* Настройка
+** Включение клавиатурных сочетаний
+   (customize-set-variable 'sp-base-key-bindings 'sp)
+   И лучше добавить 
+   (require 'smartparens-config)
+   это настроит правильные дополнения, специфичные для режимов
+* Links
+  https://github.com/Fuco1/smartparens
